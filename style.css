@@ -198,7 +198,7 @@ header .navbar{
 
 .about-section .section-content{
     gap: 70px;
-    flex-direction: column-reverse;
+    flex-direction:row;
 }
 
 .about-section .about-image-wrapper .about-image{
@@ -368,7 +368,7 @@ header .navbar{
 /* Contact Us styling */
 
 .contact-section{
-    padding: 50px o 100px;
+    padding: 10px;
     background: var(--light-pink-color);
 }
 
@@ -409,7 +409,6 @@ header .navbar{
     border-color: var(--secondary-color);
 }
 
-
 .contact-section .contact-form textarea{
     height: 100px;
     padding: 12px;
@@ -419,6 +418,7 @@ header .navbar{
 .contact-section .contact-form .submit-button {
     padding: 10px 26px;
     margin-top: 10px;
+    margin-bottom: 30px;
     color: var(--white-color);
     font-size: var(--font-size-m);
     font-weight: var(--font-weight-medium);
@@ -440,9 +440,9 @@ header .navbar{
     background: var(--dark-color);
 }
 
-.footer-section, .section-content{
+.section-content{
     display: flex;
-    align-items: center;
+    align-items:flex-end;
     justify-content: space-between;
 }
 
